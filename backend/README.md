@@ -157,56 +157,6 @@ Each document includes:
 
 ---
 
-### How to run tests
-
-* No automated tests included yet.
-* Recommended: Use **Jest** and **Supertest** for unit and integration testing.
-
----
-
-### Deployment instructions
-
-1. **Build:**
-
-   ```bash
-   npm run build
-   ```
-
-2. **Run:**
-
-   ```bash
-   npm start
-   ```
-
-3. Use a production process manager (e.g., **PM2**) or a container (e.g., **Docker**) for robust deployment.
-
----
-
-### Contribution guidelines
-
-* Use clear branch names: `feature/xyz` or `bugfix/xyz`.
-* Keep controllers thin; business logic belongs in services.
-* Validate request payloads.
-* Use async/await properly with try/catch or `.then/.catch`.
-
----
-
-### Writing tests
-
-* Suggested stack: Jest + Supertest.
-* Use a test database or mock Mongoose.
-
----
-
-### Code review
-
-* Keep API routes RESTful.
-* Return consistent response formats.
-* Follow TypeScript best practices.
-* Log errors clearly.
-
----
-
 ## Ready to integrate
 
 This backend works seamlessly with your **Salesmen Dashboard Frontend**.
