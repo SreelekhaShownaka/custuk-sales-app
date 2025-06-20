@@ -1,0 +1,7 @@
+# Node dependencies
+node_modules/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
